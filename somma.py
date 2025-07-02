@@ -15,6 +15,8 @@ def chiedi_numero(prompt: str):
             return float(valore)
         except ValueError:
             print("Valore non valido. Riprovare o premere 'q' per uscire.")
+        except (KeyboardInterrupt, EOFError):
+            print("\nInterruzione o fine dell'input. Premere 'q' per uscire.")
         except Exception as err:
             # Gestione generica di eventuali errori imprevisti
             print(f"Errore: {err}. Riprovare o premere 'q' per uscire.")
