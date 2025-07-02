@@ -5,4 +5,4 @@ L'applicazione gestisce eventuali errori di input e consente di uscire solo prem
 
 ## Utilizzo
 
-Eseguire lo script con Python 3 e seguire le istruzioni a schermo. Per terminare il programma, digitare `q` quando richiesto un numero.
+Eseguire lo script con Python 3 e seguire le istruzioni a schermo. Per terminare il programma, digitare `q` quando richiesto un numero. Se vengono inseriti caratteri non numerici, il programma li segnala e richiede nuovamente l'inserimento.
